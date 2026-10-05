@@ -1,0 +1,17 @@
+{
+  "name": "youtube-clone",
+  "version": "1.0.0",
+  "description": "A backend At chai or code",
+  "keywords": [
+    "javascript",
+    "backend",
+    "chai"
+  ],
+  "license": "ISC",
+  "author": "Divya Patil",
+  "type": "n",
+  "main": "index.js",
+  "scripts": {
+    "test": "backend javascript "
+  }
+}
