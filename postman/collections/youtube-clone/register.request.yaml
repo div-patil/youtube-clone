@@ -1,0 +1,39 @@
+$kind: http-request
+url: http://localhost:8080/api/v1/users/register
+method: POST
+body:
+  type: formdata
+  content:
+    - type: text
+      key: userName
+      value: dpatil
+      description: ""
+      disabled: false
+    - type: text
+      key: email
+      value: dp78987@gmail.com
+      description: ""
+      disabled: false
+    - type: text
+      key: fullName
+      value: divya patil
+      description: ""
+      disabled: false
+    - type: text
+      key: password
+      value: "12345"
+      description: ""
+      disabled: false
+    - type: file
+      key: avatar
+      src:
+        - postman-cloud:///1f1c23c8-b603-4380-b5a5-5d1212b91f76
+      description: ""
+      disabled: false
+    - type: file
+      key: coverImage
+      src:
+        - postman-cloud:///1f1c23d3-7e45-4320-8cb1-844312e4f85b
+      description: ""
+      disabled: false
+order: 1791374528261
